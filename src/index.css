@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+.kartinka{
+    background: url(/public/Group\ 20473.png );
+    background-size: cover;
+    background-position: center;
+}
+.ll{
+    background-color: rgb(16, 170, 85);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+.ll:hover {
+    opacity: 0.1;
+}
+
+.vv{
+    background-color: rgb(16, 170, 85);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.vv{
+    opacity: 0.5;
+}
