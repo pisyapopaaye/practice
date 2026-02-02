@@ -1,5 +1,6 @@
 import BodyComponent from './components/Body';
-import UslugiComponent from './components/Uslugi'
+import UslugiComponent from './components/Uslugi';
+import KeyComponent from './Key'
 import './index.css'
 
 function App(){
@@ -7,6 +8,7 @@ function App(){
     <div>
       <BodyComponent />
       <UslugiComponent />
+      <KeyComponent />
     </div>
   )
 }
